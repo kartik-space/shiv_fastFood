@@ -14,7 +14,7 @@ const app = express();
 
 // CORS configuration
 const corsOptions = {
-  origin: ["https://shiv-fast-food.netlify.app", "http://localhost:5173"], // Allow both origins
+  origin: "*", // Allow all origins
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH"], // Allowed methods
   allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
   credentials: true, // Allow credentials
